@@ -1,0 +1,15 @@
+﻿该资源都是自己的团队辛苦制作的，保证都是高清完整版的！
+https://fgk.pw/i/OrE2oMF2043
+
+请复制上面的链接，在浏览器打开并获取解压密码。整理资源真的非常不容易！
+配置JAVA_HOME=C:/software/jdk1.8
+将 %JAVA_HOME%\bin; 添加到PATH中
+2.安装hadoop
+hadoop下载路径
+https://archive.apache.org/dist/hadoop/common/
+选择hadoop-2.9.1目录中的hadoop-2.9.1.tar.gz
+解压缩，会得到hadoop-2.9.1
+将解压后的文件移动到安装目录C:/software/下，安装目录可以任意指定
+配置HADOOP_HOME=C:/software/hadoop-2.9.1
+将 %HADOOP_HOME%\bin; %HADOOP_HOME%\sbin; 添加到PATH中
+打开cmd，输入hadoop version， 如果出现下图内容，说明配置成功
