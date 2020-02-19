@@ -62,10 +62,13 @@ public class GroupTopN {
                             for (int i = 0; i < top.length; i++) {
                                 if (top[i] == null) {
                                     top[i] = score;
+                                    break;
                                 } else if (score > top[i]) {
-                                    int tmp = top[i];
+                                    for(int j = top.length-1;j>i;j--){
+                                        top[j] = top[j-1];
+                                    }
                                     top[i] = score;
-                                    score = tmp;
+                                    break;
                                 }
                             }
                         }
